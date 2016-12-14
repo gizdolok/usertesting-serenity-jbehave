@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Lookup a definition" skipped="0" tests="2" time="34.22" timestamp="2016-12-348 09:53:52"><testcase name="Looking up the definition of 'apple'"/><testcase name="Looking up the definition of 'pear'"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'DANASUS305FA', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DANASUS305FA', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DANASUS305FA', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown&#13;
+com.usertesting.senerity.pages.DictionaryPage.enter_keywords(DictionaryPage.java:26)&#13;
+com.usertesting.senerity.steps.serenity.EndUserSteps.enters(EndUserSteps.java:21)&#13;
+com.usertesting.senerity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:41)&#13;
+com.usertesting.senerity.steps.DefinitionSteps.whenTheUserLooksUpTheDefinitionOf(DefinitionSteps.java:32)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,45 @@
+<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23500" timestamp="2016-12-13T21:53:52.435+01:00" session-id="338e536a-30c3-4ff9-a154-0fdf9b95f595">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Login page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3315668d319d28839133065070483a0e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="13326">
+      <screenshots>
+        <screenshot image="3315668d319d28839133065070483a0e.png"/>
+      </screenshots>
+      <description>Is in the login page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user logs in with username &apos;droidzig+usertesting@gmail.com&apos; and password &apos;aA123456&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0588ed455a87fcc4553bb90b4386c471.png"/>
+      <screenshot image="087e959d3457d8d09fd692c25af527db.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6151">
+      <screenshots>
+        <screenshot image="f4712a57681c23b13044f25c3b03549f.png"/>
+        <screenshot image="4842924bac9265ec3a1669fea1487409.png"/>
+      </screenshots>
+      <description>Login with: droidzig+usertesting@gmail.com, aA123456</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see the dashboard" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e087a459005d425b307380ee0cec4c09.png"/>
+      <screenshot image="3a490ef98aa174c47e3e3e641eeed3b6.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="670">
+      <screenshots>
+        <screenshot image="89f8f15c4a8919bba13f0ef6509cc43f.png"/>
+        <screenshot image="ed852d10a4bab7f766caeac1ff247486.png"/>
+      </screenshots>
+      <description>Is in the dashboard page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,4 @@
+Can See Price After Login
+In order to see the price per month on the dashboard
+As a user
+I want to be able to login and see the price per month

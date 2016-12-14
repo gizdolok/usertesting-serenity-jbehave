@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed Dec 14 00:59:07 CET 2016
+threads=1
+total=31000
+stories/login_seeprice/LookupPriceOnDashboard.story=31000
+threadAverage=31000

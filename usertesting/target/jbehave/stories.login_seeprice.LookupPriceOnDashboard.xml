@@ -1,0 +1,17 @@
+<story path="stories/login_seeprice/LookupPriceOnDashboard.story" title="Can See Price After Login">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">informed about the monthly price</inOrderTo>
+  <asA keyword="As a">n software tester</asA>
+  <iWantTo keyword="I want to">see the price after login</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Login successfull at usertesting website">
+<step outcome="successful">Given the user is on the Login page</step>
+<step outcome="successful">When the user logs in with username &apos;droidzig+usertesting@gmail.com&apos; and password &apos;aA123456&apos;</step>
+<step outcome="successful">Then they should see the dashboard</step>
+</scenario>
+<scenario keyword="Scenario:" title="Can see the price &apos;$49/video&apos;">
+<step outcome="successful">Given the user is logged in</step>
+<step outcome="successful">When the user is on the Dashboard page</step>
+<step outcome="successful">Then they should see the price &apos;$49/video&apos;</step>
+</scenario>
+</story>

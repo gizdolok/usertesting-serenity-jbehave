@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Lookup price on dashboard" skipped="0" tests="2" time="30.75" timestamp="2016-12-349 12:58:35"><testcase name="Login successfull at usertesting website"/><testcase name="Can see the price '$49/video'"/></testsuite>

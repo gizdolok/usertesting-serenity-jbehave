@@ -1,0 +1,65 @@
+<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" steps="3" successful="2" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="8841" timestamp="2016-12-13T22:26:23.235+01:00" session-id="0f480331-33bc-4fe8-9fd6-1698bd460278">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is logged in" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63a980f1a16c90e7a09959154a1c8202.png"/>
+      <screenshot image="a3e56e05d212e4f61f7b1e51f87d20f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="577">
+      <screenshots>
+        <screenshot image="508e3f7c064b1add884eed8ee23c70ab.png"/>
+        <screenshot image="301f6a9731e02bca61ae7baace122031.png"/>
+      </screenshots>
+      <description>Login if is not</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user is on the Dashboard page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a6756f5d3d933347620935a6c1e89998.png"/>
+      <screenshot image="5d5e7ecc8a2080ca40b556ef52764eed.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3647">
+      <screenshots>
+        <screenshot image="ea17c086f2698109c9ed3ab66fb98b10.png"/>
+        <screenshot image="c04e71f2bbd52fae8de9b316aa8efe39.png"/>
+      </screenshots>
+      <description>Goto the dashboard page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;" result="ERROR">
+    <screenshots>
+      <screenshot image="17564d8da51d9b727caacdcbe1e125bb.png"/>
+    </screenshots>
+    <test-step result="ERROR" duration="2839">
+      <screenshots>
+        <screenshot image="0435f59d1e52306a834fec1be1e9be79.png"/>
+        <screenshot image="09b4d1c3437a8f51eb31e4cca6c4d1c6.png" source="pagesource112311386531662076.html.txt"/>
+      </screenshots>
+      <description>Should see definition: An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.</description>
+      <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;ol&quot;}
+Command duration or timeout: 2.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DANASUS305FA&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f480331-33bc-4fe8-9fd6-1698bd460278
+*** Element info: {Using=tag name, value=ol}</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;ol&quot;}
+Command duration or timeout: 2.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DANASUS305FA&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f480331-33bc-4fe8-9fd6-1698bd460278
+*** Element info: {Using=tag name, value=ol}&#xd;
+[com.usertesting.senerity.pages.DictionaryPage.getDefinitions(DictionaryPage.java:35), com.usertesting.senerity.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:31), com.usertesting.senerity.steps.DefinitionSteps.thenTheyShouldSeeADefinitionContainingTheWords(DefinitionSteps.java:42)]</exception>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

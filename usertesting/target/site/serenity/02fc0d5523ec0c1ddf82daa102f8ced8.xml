@@ -1,0 +1,47 @@
+<acceptance-test-run title="Can see the price &apos;$49/video&apos;" name="Can see the price &apos;$49/video&apos;" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8146" timestamp="2016-12-13T22:41:23.018+01:00" session-id="529165e0-1b1b-47f9-b229-a2d7a3385df2">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is logged in" result="SUCCESS">
+    <screenshots>
+      <screenshot image="cec7391aadee47f46efa79ef55986220.png"/>
+      <screenshot image="d001ca9087912f8a87af8175c3bd4a70.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="708">
+      <screenshots>
+        <screenshot image="034e92996e47ab400f4a7cae16969628.png"/>
+        <screenshot image="3727a0d204729b47cbc0c373a7a94741.png"/>
+      </screenshots>
+      <description>Login if is not</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user is on the Dashboard page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="80cac1bf21c322d53789749f11a1b335.png"/>
+      <screenshot image="b0da4df5103f290a7e32a2e4ad4ebdbd.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4349">
+      <screenshots>
+        <screenshot image="1618399ed5498c4afc3e0a55fe065e48.png"/>
+        <screenshot image="bd0d1852843369c622dc95987917ac11.png"/>
+      </screenshots>
+      <description>Goto the dashboard page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see the price &apos;$49/video&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b23a739696c54d646589ebd3df4839b7.png"/>
+      <screenshot image="6659ff26e4200fa67c565fbe55d0e675.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="802">
+      <screenshots>
+        <screenshot image="131f5b472f12da256101ea0ec83c2f90.png"/>
+        <screenshot image="fb7bd497b6c5e95dd8cc0ff0f786c34e.png"/>
+      </screenshots>
+      <description>Can see the price: $49/video</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

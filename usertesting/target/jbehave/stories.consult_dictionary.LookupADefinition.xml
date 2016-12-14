@@ -1,0 +1,17 @@
+<story path="stories/consult_dictionary/LookupADefinition.story" title="Lookup a definition">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">talk better</inOrderTo>
+  <asA keyword="As a">n English student</asA>
+  <iWantTo keyword="I want to">look up word definitions</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Login successfull at usertesting website">
+<step outcome="successful">Given the user is on the Login page</step>
+<step outcome="successful">When the user logs in with username &apos;droidzig+usertesting@gmail.com&apos; and password &apos;aA123456&apos;</step>
+<step outcome="successful">Then they should see the dashboard</step>
+</scenario>
+<scenario keyword="Scenario:" title="Can see the price &apos;$49/video&apos;">
+<step outcome="successful">Given the user is logged in</step>
+<step outcome="successful">When the user is on the Dashboard page</step>
+<step outcome="successful">Then they should see the price &apos;$49/video&apos;</step>
+</scenario>
+</story>

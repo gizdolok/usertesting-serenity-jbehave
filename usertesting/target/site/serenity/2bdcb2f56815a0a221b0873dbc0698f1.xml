@@ -1,0 +1,45 @@
+<acceptance-test-run title="Login successfull at usertesting website" name="Login successfull at usertesting website" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26900" timestamp="2016-12-13T22:40:56.022+01:00" session-id="529165e0-1b1b-47f9-b229-a2d7a3385df2">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Login page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="23e83284edd39bcc67a83f7fdc433c40.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="12374">
+      <screenshots>
+        <screenshot image="1ef8f24882392f390a567a8195b9f7c7.png"/>
+      </screenshots>
+      <description>Goto the login page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user logs in with username &apos;droidzig+usertesting@gmail.com&apos; and password &apos;aA123456&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="fe30177c7bcc7dcb5c8da73d445e7320.png"/>
+      <screenshot image="c5864032b82eb2ed13b26c46aefcce31.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7894">
+      <screenshots>
+        <screenshot image="fe30177c7bcc7dcb5c8da73d445e7320.png"/>
+        <screenshot image="021bc69759f9fdb510ddf1288b1c040d.png"/>
+      </screenshots>
+      <description>Login with: droidzig+usertesting@gmail.com, aA123456</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see the dashboard" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3031375047a06b928b002b27ef4f2ba6.png"/>
+      <screenshot image="8ddae39391d41e18a13342e58ad5a5d6.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="869">
+      <screenshots>
+        <screenshot image="747d7960a12415ac98f5f1208fcf7466.png"/>
+        <screenshot image="00df56a140890c5924b2166adb382b8a.png"/>
+      </screenshots>
+      <description>Is in the dashboard page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

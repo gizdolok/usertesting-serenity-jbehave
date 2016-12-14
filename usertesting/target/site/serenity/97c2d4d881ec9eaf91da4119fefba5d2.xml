@@ -1,0 +1,45 @@
+<acceptance-test-run title="Login successfull at usertesting website" name="Login successfull at usertesting website" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24353" timestamp="2016-12-14T00:58:35.772+01:00" session-id="bd1c8b77-af10-4548-86ce-ccb06eae2771">
+  <user-story id="LookupPriceOnDashboard" name="Lookup price on dashboard" path="stories/login_seeprice/LookupPriceOnDashboard.story"/>
+  <tags>
+    <tag name="Login seeprice" type="feature"/>
+    <tag name="Login seeprice/Can see price after login" type="story"/>
+    <tag name="Lookup price on dashboard" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Login page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="49fb5e1e9cf283527cd7e8b143818f5c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="13342">
+      <screenshots>
+        <screenshot image="bf22adf68f02d3dc05f966feadcd2bf4.png"/>
+      </screenshots>
+      <description>Goto the login page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user logs in with username &apos;droidzig+usertesting@gmail.com&apos; and password &apos;aA123456&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6490226e2ffe2dd05162cb7e96024142.png"/>
+      <screenshot image="a4d211d59c71573f30a4e49d9527a064.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5853">
+      <screenshots>
+        <screenshot image="55868cf5879cdb492aa06f27f2eebaf1.png"/>
+        <screenshot image="93201533744e8c26a1a2e51ae2a23023.png"/>
+      </screenshots>
+      <description>Login with: droidzig+usertesting@gmail.com, aA123456</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then they should see the dashboard" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c9ce58890f37e5c3b4905f1b4101daa4.png"/>
+      <screenshot image="ab8e1f156ee524cb85864295f28a0c04.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="884">
+      <screenshots>
+        <screenshot image="5cd438cf8ac0ef3b20b384b2e90e8820.png"/>
+        <screenshot image="00f09eaee99d18cb1d570ca69e72649e.png"/>
+      </screenshots>
+      <description>Is in the dashboard page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
