@@ -7,7 +7,7 @@ import org.jbehave.core.annotations.When;
 
 import com.usertesting.senerity.steps.serenity.EndUserSteps;
 
-public class DefinitionSteps {
+public class LoginSteps {
 
     @Steps
     EndUserSteps endUser;
